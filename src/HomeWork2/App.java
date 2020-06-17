@@ -1,21 +1,41 @@
 package HomeWork2;
 
-public class Demo {
-    public static void main(String[] args) throws MyArraySizeException {
-        String[][] array = new String[5][5];
-        myArray(array);
+public class App {
+    public static void main(String[] args) {
+        arrayExceptionInit();
     }
 
-    private static void myArray(String[][] a)throws MyArraySizeException {
-        if (a.length < 4 && a.length > 4){
-            throw new MyArraySizeException("Кол-во строк и столбцов в массиве должно" +
-                    " быть равно 4 ");
-            for(x)
+    public static void arrayExceptionInit() {
+        String[][] array = {{"a", "1", "1", "1"}, {"1", "1", "1", "1"},
+                {"1", "1", "1", "1"}, {"1", "1", "1", "1"}};
+        checkArray(array);
+        System.out.println(calcArr(array));
+    }
 
-            }
+    public static void checkArray(String[][] arr) throws MyArraySizeException {
+
+        for (int i = 0; i < arr.length; i++) {
+            if (arr.length != 4 || arr[i].length != 4) {
+                throw new MyArraySizeException("Неверный размер массива." +
+                        "Необходимо подать массив размером [4][4]");
             }
         }
-
     }
+
+    private static int calcArr(String[][] array) {
+        int sum = 0;
+        for (int i = 0; i < array.length; i++) {
+            for (int j = 0; j < array[i].length; j++) {
+                try {
+                    sum += Integer.parseInt(array[i][j]);
+                } catch (NumberFormatException e) {
+                    throw new MyArrayDataException(String.format("Невозможно привести ячейку [%s][%s] к типу int" +
+                           " содержимое ячейки: %s", i, j, array[i][j]));
+                }
+            }
+        }
+        return sum;
+    }
+
 
 }
