@@ -20,10 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4708febf-77b1-4ca8-a749-a8b6e89afc43" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/homework3/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework3/PhoneBook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaLevel2/HomeWork2/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework4/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework4/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework4/MyWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework4/MyWindow.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +42,11 @@
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="homework3" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.App (2)">
     <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
