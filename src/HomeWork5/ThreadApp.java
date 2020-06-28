@@ -73,4 +73,3 @@ public class ThreadApp {
         System.out.println(System.currentTimeMillis() - b);
     }
 }
-
