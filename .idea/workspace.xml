@@ -19,9 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4708febf-77b1-4ca8-a749-a8b6e89afc43" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/homework4/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework4/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework4/MyWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework4/MyWindow.java" afterDir="false" />
+    <list default="true" id="825c2c1d-1d85-473c-805c-dad2b809af96" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/HomeWork5/ThreadApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWork5/ThreadApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,23 +37,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1dDrm2HCqQiSdrMlz3Jnm40OuA1" />
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="homework3" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Application.App (2)">
-    <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HomeWork2.App" />
+  <component name="RunManager">
+    <configuration name="ThreadApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HomeWork5.ThreadApp" />
       <module name="JavaLevel2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HomeWork2.*" />
+          <option name="PATTERN" value="HomeWork5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -62,82 +51,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="App (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework3.App" />
-      <module name="JavaLevel2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="homework3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HomeWork1.App" />
-      <module name="JavaLevel2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="HomeWork1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework4.App" />
-      <module name="JavaLevel2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="homework3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HomeWork2.App" />
-      <module name="JavaLevel2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="HomeWork2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="JavaLevel2" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.App" />
-      <item itemvalue="Application.App (1)" />
-      <item itemvalue="Application.ChatWindow" />
-      <item itemvalue="Application.App (2)" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.App (2)" />
-        <item itemvalue="Application.ChatWindow" />
-        <item itemvalue="Application.App (1)" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.App" />
+        <item itemvalue="Application.ThreadApp" />
       </list>
     </recent_temporary>
   </component>
@@ -145,58 +61,27 @@
     <configuration />
   </component>
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="4708febf-77b1-4ca8-a749-a8b6e89afc43" name="Default Changelist" comment="" />
-      <created>1591970659287</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1591970659287</updated>
-    </task>
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="551" y="307" width="433" height="216" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1593009353655">
+    <state width="746" height="210" key="GridCell.Tab.0.bottom" timestamp="1593315525846">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="551" y="307" width="433" height="216" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1593009353655" />
-    <state width="746" height="210" key="GridCell.Tab.0.bottom" timestamp="1593009258060">
+    <state width="746" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593315525846" />
+    <state width="746" height="210" key="GridCell.Tab.0.center" timestamp="1593315525846">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593009258060" />
-    <state width="746" height="210" key="GridCell.Tab.0.center" timestamp="1593009258059">
+    <state width="746" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593315525846" />
+    <state width="746" height="210" key="GridCell.Tab.0.left" timestamp="1593315525846">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593009258059" />
-    <state width="746" height="210" key="GridCell.Tab.0.left" timestamp="1593009258059">
+    <state width="746" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593315525846" />
+    <state width="746" height="210" key="GridCell.Tab.0.right" timestamp="1593315525846">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593009258059" />
-    <state width="746" height="210" key="GridCell.Tab.0.right" timestamp="1593009258060">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="746" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593009258060" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/HomeWork1/Wall.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state width="746" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593315525846" />
   </component>
 </project>
