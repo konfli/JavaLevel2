@@ -6,7 +6,7 @@ import java.net.Socket;
 import java.util.Scanner;
 
 public class Client {
-    private static final String SERVER_ADDR = "localhost";
+    private static final String SERVER_ADR = "localhost";
     private static final int SERVER_PORT = 1111;
 
     public static void main(String[] args) {
@@ -14,7 +14,7 @@ public class Client {
         Socket socket = null;
 
         try {
-            socket = new Socket(SERVER_ADDR, SERVER_PORT);
+            socket = new Socket(SERVER_ADR, SERVER_PORT);
             Scanner in = new Scanner(socket.getInputStream());
             PrintWriter out = new PrintWriter(socket.getOutputStream(), true);
             Scanner sc = new Scanner(System.in);
@@ -24,25 +24,24 @@ public class Client {
                 public void run() {
                     while (true) {
                         String msg = in.nextLine();
-                        System.out.println("Server: " + msg);
+                        System.out.println("Сервер: " + msg);
                     }
                 }
             }).start();
 
             while (true) {
-                System.out.println("Write you message...");
+                System.out.println("Клиент: напишите ваше сообщение...");
                 String msg = sc.nextLine();
                 out.println(msg);
             }
-        } catch (IOException e) {
-            e.printStackTrace();
+        } catch (IOException ex) {
+            ex.printStackTrace();
         } finally {
             try {
                 socket.close();
-            } catch (IOException e) {
-                e.printStackTrace();
+            } catch (IOException ex) {
+                ex.printStackTrace();
             }
         }
     }
 }
-
